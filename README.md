@@ -1,8 +1,14 @@
-# React Project for the React Course
+## Application Link
+
+https://react-router-site-app.netlify.app/
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Runs a command to install the package versions listed in package.json.
 
 ### `npm start`
 
