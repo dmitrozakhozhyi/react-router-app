@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.active {
+  color: lightyellow;
+  text-decoration: underline;
+}
+
+.activeLink {
+  color: lightyellow;
+  text-decoration: underline;
+}
+
+.courseLink {
+  font-size: 25px;
+}
+
+.courseLink:hover {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: darkslategray;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+a {
+  color: lightblue;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  border: 0;
+  color: #000;
+}
+
+.courses__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px;
+  gap: 30px;
+  align-items: center;
+  grid-auto-rows: 500px;
+}
+
+.course {
+  height: 100%;
+  background-color: #163b60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
